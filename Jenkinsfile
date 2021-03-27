@@ -4,7 +4,7 @@ pipeline {
       stages {
           stage('Build') {
               steps {
-                  echo 'Building or resolve dependencias!'
+                  echo 'Building or resolve dependencias! Rafael'
                   sh 'bundle install'
               }
           }
