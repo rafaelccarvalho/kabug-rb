@@ -1,5 +1,5 @@
 ###
-### QA NINJA
+### QA NINJA - Rafael
 ###
 
 FROM ruby:2.6.5-stretch
