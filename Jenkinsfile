@@ -36,7 +36,7 @@ pipeline {
                 echo 'WebApp is Ready :)'
             }
             post {
-                always{
+                always {
                     sh "docker stop test"
                 }
             }
