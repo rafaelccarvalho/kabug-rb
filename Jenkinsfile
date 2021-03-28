@@ -35,6 +35,11 @@ pipeline {
             steps {
                 echo 'WebApp is Ready :)'
             }
+            post {
+                always{
+                    sh "docker stop test"
+                }
+            }
         }
     }
 }
