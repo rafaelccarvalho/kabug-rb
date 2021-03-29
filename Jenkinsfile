@@ -36,8 +36,11 @@ pipeline {
             steps {
                 echo 'WebApp is Ready :)'
             }
+<<<<<<< HEAD
             post {
             }
+=======
+>>>>>>> 8ee4bf5ebb9efb3755cd58db3f0151a98ae1129d
         }
     }
 }
