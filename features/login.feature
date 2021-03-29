@@ -4,7 +4,7 @@ Funcionalidade: Login
  
     Esquema do Cenario: Tentando logar 
 
-        Dado que acesso a página Login
+        Dado que acesso a página login
         Quando eu submeto as minhas credenciais '<email>' e '<senha>' 
         Então devo ver a seguinte mensagem de alerta:
         """
