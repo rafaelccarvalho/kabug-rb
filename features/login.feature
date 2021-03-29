@@ -4,9 +4,9 @@ Funcionalidade: Login
  
     Esquema do Cenario: Tentando logar 
 
-        Dado que eu acesso a página Login
+        Dado que acesso a página Login
         Quando eu submeto as minhas credenciais '<email>' e '<senha>' 
-        Então devo ver a seguinte mensagem de alerta
+        Então devo ver a seguinte mensagem de alerta:
         """
           Atenção: Seus dados de acesso não estão corretos. Se você tem certeza que o e-mail está correto, solicite uma nova senha.
         """
